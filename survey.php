@@ -16,7 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $count = $stmt->fetchColumn();
 
     if ($count > 0) {
-        echo "<p>Вы уже оставили отзыв для этого преподавателя. Спасибо!</p>";
+        header("Location: already_submitted.php");
+        exit;
     } else {
         $_SESSION['student_id'] = $student_id;
         $_SESSION['teacher_id'] = $teacher_id;

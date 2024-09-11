@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="material_relevance" class="material-label">Комментарий:</label>
         <textarea name="material_relevance" id="material_relevance" rows="4" cols="50" class="material-textarea"></textarea>
 
-        <label for="material_relevance_rating" class="material-label">Оценка (1-5):</label>
+        <label for="material_relevance_rating" class="material-label">Оценка:</label>
         <select name="material_relevance_rating" id="material_relevance_rating" class="material-select">
             <option value="1">1</option>
             <option value="2">2</option>

@@ -460,3 +460,64 @@ body {
 body {
     padding-top: 80px;
 }
+
+.already-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.already-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.already-text {
+    text-align: center;
+    font-size: 16px;
+    color: var(--e-global-color-accent);
+}
+
+.thank-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.thank-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.thank-text {
+    text-align: center;
+    font-size: 16px;
+    color: var(--e-global-color-accent);
+}
+
+.button-main {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--e-global-color-accent);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto; /* Центрирование кнопки по горизонтали */
+    transition: background-color 0.3s ease;
+}
+
+.button-main:hover {
+    background-color: #0056b3;
+
+}

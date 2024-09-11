@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <label for="group_interaction" class="group-label">Комментарий:</label>
         <textarea name="group_interaction" id="group_interaction" rows="4" cols="50" class="group-textarea"></textarea>
 
-        <label for="group_interaction_rating" class="group-label">Оценка (1-5):</label>
+        <label for="group_interaction_rating" class="group-label">Оценка:</label>
         <select name="group_interaction_rating" id="group_interaction_rating" class="group-select">
             <option value="1">1</option>
             <option value="2">2</option>
