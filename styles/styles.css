@@ -1,0 +1,462 @@
+:root {
+    --e-global-color-accent: #032467;
+}
+
+/* Общие стили для всего документа */
+body {
+    font-family: "Philosopher", Sans-serif;
+    background-color: #032467;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.index-page {
+    background-color: var(--e-global-color-accent);
+}
+
+.index-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.index-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.anonymous-note {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.index-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.index-select {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.index-submit {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.index-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Стили для страницы оценки качества преподавания (teaching_quality.php) */
+.teaching-quality-page {
+    background-color: #032467;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.teaching-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.teaching-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.teaching-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.teaching-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--e-global-color-accent);
+}
+
+.teaching-textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.teaching-select {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.teaching-input {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.teaching-submit {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.teaching-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Стили для страницы оценки доступности преподавателя (availability.php) */
+.availability-page {
+    background-color: #032467;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.availability-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.availability-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.availability-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.availability-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--e-global-color-accent);
+}
+
+.availability-textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.availability-select {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.availability-submit {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.availability-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Стили для страницы оценки актуальности учебного материала (material_relevance.php) */
+.material-page {
+    background-color: #032467;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.material-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.material-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.material-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--e-global-color-accent);
+}
+
+.material-textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.material-select {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.material-submit {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.material-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Стили для страницы оценки взаимодействия с группой (group_interaction.php) */
+.group-page {
+    background-color: #032467;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.group-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.group-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.group-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--e-global-color-accent);
+}
+
+.group-textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.group-select {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.group-submit {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.group-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Стили для страницы общего отзыва (final_feedback.php) */
+.final-page {
+    background-color: #032467;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.final-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.final-heading {
+    text-align: center;
+    color: var(--e-global-color-accent);
+}
+
+.final-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.final-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--e-global-color-accent);
+}
+
+.final-textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+.final-submit {
+    background-color: var(--e-global-color-accent);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.final-submit:hover {
+    background-color: #0056b3;
+}
+
+
+.reminder-note {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.page-header {
+    background-color: white;
+    color: #032467;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-description {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+body {
+    padding-top: 80px;
+}
