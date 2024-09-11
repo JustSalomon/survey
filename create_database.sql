@@ -20,17 +20,16 @@ CREATE TABLE IF NOT EXISTS survey_results (
                                               id INT AUTO_INCREMENT PRIMARY KEY,
                                               student_id INT NOT NULL,
                                               teacher_id INT NOT NULL,
-                                              teaching_quality VARCHAR(1000),
-                                              teaching_quality_rating TINYINT(1),
-                                              availability VARCHAR(1000),
-                                              availability_rating TINYINT(1),
-                                              material_relevance VARCHAR(1000),
-                                              material_relevance_rating TINYINT(1),
-                                              group_interaction VARCHAR(1000),
-                                              group_interaction_rating TINYINT(1),
-                                              overall_feedback VARCHAR(1000),
-                                              FOREIGN KEY (student_id) REFERENCES students(id),
-                                              FOREIGN KEY (teacher_id) REFERENCES teachers(id)
+                                              teaching_quality VARCHAR(1000) DEFAULT NULL,
+                                              teaching_quality_rating TINYINT(1) DEFAULT NULL,
+                                              availability VARCHAR(1000) DEFAULT NULL,
+                                              availability_rating TINYINT(1) DEFAULT NULL,
+                                              material_relevance VARCHAR(1000) DEFAULT NULL,
+                                              material_relevance_rating TINYINT(1) DEFAULT NULL,
+                                              group_interaction VARCHAR(1000) DEFAULT NULL,
+                                              group_interaction_rating TINYINT(1) DEFAULT NULL,
+                                              overall_feedback VARCHAR(1000) DEFAULT NULL,
+                                              UNIQUE KEY unique_student_teacher (student_id, teacher_id)
 );
 
 -- Создание таблицы average_ratings
