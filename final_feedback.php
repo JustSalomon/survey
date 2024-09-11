@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->execute([$student_id, $teacher_id, $overall_feedback]);
 
     // Вычисление и сохранение средних значений
-    updateAverageRatings($pdo, $student_id, $teacher_id);
+    updateAverageRatings($pdo, $teacher_id);
 
 
     unset($_SESSION['student_id']);
