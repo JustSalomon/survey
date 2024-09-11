@@ -1,6 +1,7 @@
 <?php
 session_start();
 require 'config/config.php';
+include 'header.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $student_id = $_SESSION['student_id'];
